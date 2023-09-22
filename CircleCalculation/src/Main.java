@@ -10,8 +10,11 @@ public class Main {
             System.err.println(word + " is not a radius!");
             return;
         }
-        double r = in.nextDouble();
-        System.out.println("\nThe diameter is " + r * 2);
-        System.out.println("The area is " + r * r * Math.PI + " units squared");
-        System.out.println("The circumference is" + r * Math.PI * 2);
+        double radius = in.nextDouble();
+        double diameter = (radius * 2);
+        double area = (radius * radius * Math.PI);
+        double circumference = (radius * Math.PI * 2);
+        System.out.println("\nThe diameter is " + diameter);
+        System.out.println("The area is " + area + " units squared");
+        System.out.println("The circumference is " + circumference);
     }}
